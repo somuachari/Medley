@@ -1,0 +1,101 @@
+.container-fluid{
+    margin-top: 55px;
+    padding-top: 20px;
+    background-color: #eaeaea;
+    .container{
+        p{
+            text-align: justify;
+            font-size: 17px;
+        }
+
+        i{
+            color:#FEA116;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .text-clr{
+            color: #0F172B;
+            font-weight: bold;
+        }
+        .pro-name{
+            color: #FEA116;
+            text-transform: capitalize;
+        }
+
+        .increment-btn {
+           //background: rgba(7, 17, 6, 0.3);
+            width: 40px;
+            height: 40px;
+            position: relative;
+            border-radius: 50%;
+            font-size: 25px;
+            color: #FEA116;
+            z-index: 1;
+            font-size:25px;
+            font-weight: 900;
+            border: 1px solid #FEA116;
+        }
+
+        .dce-btn{
+            
+            width: 40px;
+            height: 40px;
+            position: relative;
+            border-radius: 50%;
+            font-size: 25px;
+            color: #0F172B;
+            z-index: 1;
+            font-size:25px;
+            font-weight: 900;
+           left: 75px;
+           top: -58px;
+           border: 1px solid #0F172B;
+
+        }
+        .number{
+            position: relative;
+            left: 51px;
+            top: -30px;
+            color: #FEA116;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .buy{
+
+            padding: 15px;
+            color: #FEA116;
+            font-size: 20px;
+            text-decoration: none;
+            border: 1px solid #FEA116;
+            position: relative;
+            left: -30px;
+            margin-top: 5px;
+            &:hover{
+                color: white;
+                background-color: #FEA116;
+            }
+        }
+       ul{
+        list-style: none;
+        text-align: justify;
+        i{
+            padding-right: 10px;
+        }
+       }
+       h6{
+        color: #FEA116;
+        font-weight: 500;
+       }
+
+       .gradient-line{ 
+        margin: 0 0 15px 0;
+        display: block;
+        border: none;
+        height: 3px;
+        background: #FEA116;
+        //background: linear-gradient(to right, #FEA116, #FEA116, #edc07c, #e38b08, #FEA116);
+
+        }
+     }
+}

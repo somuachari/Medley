@@ -1,0 +1,95 @@
+.container-fluid{
+
+    .col-md-3{
+       // padding: auto 10px;
+        transition:transform .1s;
+        margin-top:20px;
+        cursor: pointer;
+        .card-border{
+            text-align: justify;
+        }
+        span{ 
+           
+            i {
+                font-size: 30px;
+                color: #FEA116;
+                text-align: center;
+                padding: 20px;
+                border: 1px solid #FEA116;
+                border-radius: 50%;
+                margin: 20px auto 10px auto;
+            }
+            
+        }
+        &:hover{ transform: scale(1.1);
+
+        }
+        
+      }
+
+    .container{
+
+        .img-height{
+            height: 400px;
+            width: 100%;
+        }
+       
+        .col-md-6{
+            .icon-fas{
+                font-size: 20px;
+                color: #FEA116;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+        h6{
+            text-align: center;
+            font-size: 35px;
+            color: #FEA116;
+            font-weight: 550;
+            position: relative;
+            top: 150px;
+
+        }
+        .card{
+            text-align: justify;
+            cursor: pointer;
+            transition: transform .1s;
+            margin-top: 20px;
+            &:hover{
+                border-bottom: 3px solid  #FEA116;
+                transform: scale(1.1);
+            }
+            .card-body{
+
+                .card-title{ color: #0B141F; }
+
+             
+                a {
+                    text-decoration: none;
+                    
+
+                  }
+                  
+                  .link-arrow p {
+                    display: inline;
+                    transition: 0.1s ease-in;
+                    color: #FEA116;
+                    font-weight: 500;
+                    float: right;
+                    i{
+                        padding-left: 10px;
+                    }
+                    &:hover{
+                        transform: translateX(10%);
+                    color: #0B141F;
+                    }
+                  }
+                  
+        
+             }
+        }
+     
+    }
+}

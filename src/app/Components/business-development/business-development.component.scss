@@ -1,0 +1,47 @@
+.container-fluid {
+
+    .container{
+
+        .h6{
+            text-align: center;
+            font-size: 35px;
+            color: #FEA116;
+            font-weight: 550;
+            position: relative;
+            top: 150px;
+
+        }
+
+        .fas{
+            font-size: 20px;
+            color: #FEA116;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        hr.style14 {
+            border: 0;
+            height: 10px;
+            width: 16px;
+            position: relative;
+            top: -31px;
+            background-color: #FEA116;
+            opacity: 1;
+            margin-top: 5px;
+        }
+    
+        .style1 {
+            height: 4px;
+            width: 130px;
+            position: relative;
+            border: 0;
+            background-color: rgb(27, 17, 140);
+    
+            left: 16px;
+            top: -8px;
+        }
+    }
+    
+}

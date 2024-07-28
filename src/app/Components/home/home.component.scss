@@ -1,0 +1,219 @@
+
+
+.container {
+
+    .content-bg-clr {
+        background-color: #e0e0e5ab;
+        
+       
+    }
+
+    .padding-para {
+
+        padding-left: 30px;
+
+        .para-header {
+            color: blueviolet;
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        hr.style14 {
+            border: 0;
+            height: 10px;
+            width: 16px;
+            position: relative;
+            top: -31px;
+            background-color: #FEA116;
+            opacity: 1;
+            margin-top: 5px;
+        }
+
+        .style1 {
+            height: 4px;
+            width: 130px;
+            position: relative;
+            border: 0;
+            background-color: rgb(27, 17, 140);
+
+            left: 16px;
+            top: -8px;
+        }
+
+        .text-cls {
+            text-align: justify;
+        }
+
+        .text-para {
+            font-size: 21px;
+            font-weight: 500;
+            color: #0B141F;
+        }
+
+        .button-hover {
+            padding: 10px;
+            border: 1px solid #FEA116;
+            color: #FEA116;
+            text-transform: uppercase;
+            font-weight: 450;
+            margin-top: 10px;
+            border-radius: 0;
+
+            // border-left: 5px solid rgb(27, 17, 140) ;
+            &:hover {
+                background-color: #FEA116;
+                color: white;
+            }
+        }
+    }
+
+    .products-text{
+        text-transform: uppercase;
+        color: #FEA116;
+        font-size: 24px;
+        font-weight: 550;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .image-service{
+        .card{
+            height: 250px;
+        }
+    }
+    .card{
+
+        cursor: pointer;
+       
+        img{
+            width: 100%;
+           // height: 100%;
+            object-fit: cover;
+        }
+
+       
+        .content{
+            display: flex;
+            flex-direction: column;
+           
+            align-items: center;
+            opacity: 0;
+            transition: all 0.3s ease;
+          
+
+            .view-more{
+                margin: 15px;
+                font-weight: 500;
+                position: relative;
+                top: -100px;
+                color: #FEA116;
+                font-size: 20px;
+                border: 2px solid #FEA116;
+                justify-content: left baseline;
+                text-align: left;
+                &:hover{
+                    background-color: #FEA116;
+                    color: white;
+                }
+            }
+            .cart{
+                margin: 15px;
+                font-weight: 500;
+                position: relative;
+                top: -100px;
+                color: white;
+                font-size: 20px;
+                justify-content: right;
+                border: 2px solid white;
+                &:hover{
+                    background-color: white;
+                    color: #FEA116;
+                }
+            }
+            
+         
+        }
+        
+        .content *{
+            transform: translateY(-70%);
+            transition: all 0.3s ease;
+            opacity: 0;
+        }
+        
+        
+        
+        &:hover .content{
+            opacity: 1;
+        }
+        
+        &:hover .content *{
+            opacity: 1;
+            transform: translateY(0);
+        }   
+        
+    }
+
+}
+
+.container-fluid{
+    padding-bottom: 100px;
+    padding: 0px;
+    .carousel-inner {
+        height: 450px;
+        width: 100%;
+        object-fit: contain;
+        padding-top: 55px;
+       
+    }
+
+    h6 {
+        padding: 30px 0px;
+        font-size: 35px;
+        color: #FEA116;
+    }
+
+    h5 {
+        font-weight: 600;
+        font-size: 38px;
+        text-transform: capitalize;
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        color: #ffffff;
+        margin-bottom: 10px;
+    }
+    .fluid-bg{
+        //padding: 100px;
+        background-color: #0B141F;
+        margin: 10px 0px;
+
+       
+    }
+
+   
+
+    
+
+     .card{
+        padding-top: 30px;
+        margin-top: 10px;
+        .fa-solid{
+             font-size: 40px;
+             color: #FEA116;
+             padding: 30px;
+             border-radius: 100%;
+             border: 1px solid #FEA116 ;
+        }
+
+        .card-body{
+            text-align: justify;
+            padding-bottom: 30px;
+        }
+     }
+
+   
+
+
+
+
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-fluid {
+    padding: auto 20px;
+    .navbar {
+        background-color: #FEA116;
+        padding: 0 15px;
+        height: 55px;
+
+       .nav-item{
+
+            padding: 0 5px;
+
+            .nav-link {
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+                
+
+            }
+            .active{
+                color: #0F172B;
+            }
+       }
+
+        .navbar-brand {
+            color: white;
+            font-size: 20px;
+            font-weight: 500;
+        }
+    }
+}

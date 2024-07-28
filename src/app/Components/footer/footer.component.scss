@@ -1,0 +1,39 @@
+.container-fluid{
+    background-color: #0B141F;
+    opacity: .8;
+    position: relative;
+    bottom: 0px;
+    .container{
+        padding-top: 20px;
+        span{
+            color: #FEA116;
+        }
+        a{
+            text-decoration: none;
+            color: #FEA116;
+            font-weight: bold;
+        }
+        p{
+            color: white;
+            font-weight: bold;
+            text-align: justify;
+        }
+       ul{
+        list-style: none;
+
+           li{
+            margin: 10px 0px;
+            cursor: pointer;
+            // display: inline-flex;
+            // padding: 0px 10px;
+            i{
+                font-size: 25px;
+                color: #FEA116;
+               
+                
+               
+            }
+           }
+       }
+    }
+}

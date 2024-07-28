@@ -1,0 +1,64 @@
+.container-fluid{
+        margin-top: 57px;
+        background-color: #eaeaea;
+    .container{
+        
+        .about-img{
+            height: 600px;
+            object-fit: contain;
+          
+            
+        }
+    
+        hr.style14 {
+            border: 0;
+            height: 10px;
+            width: 16px;
+            position: relative;
+            top: -31px;
+            background-color: #FEA116;
+            opacity: 1;
+            margin-top: 5px;
+        }
+    
+        .style1 {
+            height: 4px;
+            width: 130px;
+            position: relative;
+            border: 0;
+            background-color: rgb(27, 17, 140);
+    
+            left: 16px;
+            top: -8px;
+        }
+    
+        .para-header {
+            color: blueviolet;
+            font-weight: 500;
+            font-size: 24px;
+        }
+
+        .card{
+            margin: 10px auto;
+
+            .fa-solid{
+                font-size: 30px;
+                color: #FEA116;
+                text-align: center;
+                padding: 20px;
+                border: 1px solid #FEA116;
+                border-radius: 50%;
+                margin: 20px auto 10px auto;
+            }
+            .card-body{
+               text-align: justify;
+               .para-text{
+                font-size: 20px;
+                font-weight: 500;
+                color: #222;
+               }
+            }
+        }
+
+    }
+}
