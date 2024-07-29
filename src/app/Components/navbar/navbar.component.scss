@@ -4,34 +4,47 @@
     box-sizing: border-box;
 }
 
+img{
+    height: 100px;
+}
 
 .container-fluid {
     padding: auto 20px;
+    nav{
+        box-shadow: 0px 5px #e3e5e6cc; 
+    }
     .navbar {
-        background-color: #FEA116;
+        background-color:white;
         padding: 0 15px;
-        height: 55px;
-
+        height: 80px;
+       padding: 25px;
+       box-shadow: 1px #074a7c;
        .nav-item{
 
             padding: 0 5px;
 
             .nav-link {
-                color: white;
+                color: #074a7c;
                 font-size: 20px;
                 font-weight: 500;
                 
 
             }
             .active{
-                color: #0F172B;
+                
+                border-bottom: 2px solid #074a7c;
+                
             }
        }
 
         .navbar-brand {
-            color: white;
+            color: #074a7c;
             font-size: 20px;
             font-weight: 500;
+
+            img{
+                height: 70px;
+            }
         }
     }
 }
