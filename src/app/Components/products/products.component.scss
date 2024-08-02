@@ -27,19 +27,21 @@
         h6 {
             text-align: center;
             font-size: 35px;
-            color: #FEA116;
+            color: #ffffff;
             font-weight: 550;
             position: relative;
             top: 150px;
 
         }
 
-        .area-title h1 {
-            font-size: 45px;
+        
+        .area-title h1{
+            font-size: 25px;
             font-weight: 800;
             margin-bottom: 34px;
             position: relative;
             border-bottom: 2px solid #e7eaeb;
+           
             padding-bottom: 32px;
             color: #074a7c;
 
@@ -57,16 +59,50 @@
             margin: auto;
         }
           h5{
-            color: white;
+
+            color:#ffffff;
             font-size: 20px;
             text-align: center;
+
+            i{
+                padding-left: 5px;
+            }
+
+            a{
+                text-decoration: none;
+                color: #ffffff;
+                padding: 10px;
+                text-align: center;
+                border: 1px solid #ffffff;
+                margin: auto;
+                &:hover{
+                    background-color: #074a7c;
+                    border: 1px solid #074a7c;
+                }
+              }
+          }
+          a{
+            text-decoration: none;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ffffff;
+         
+            &:hover{
+                background-color: #074a7c;
+                border: 1px solid #074a7c;
+            }
           }
           h1{
             color: #ffffff;
-    font-size: 50px;
-    margin-top: 18px;
-    margin-bottom: 35px;
+            font-size: 50px;
+            margin-top: 18px;
+            margin-bottom: 35px;
+            text-align: center;
+            font-weight: 700;
           }
+
+         
         .card {
             text-align: justify;
             cursor: pointer;
@@ -109,7 +145,7 @@
 
                     &:hover {
                         transform: translateX(10%);
-                        color: #0B141F;
+                        color: #074a7c;
                     }
                 }
 

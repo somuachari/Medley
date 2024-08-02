@@ -1,7 +1,7 @@
 .container-fluid{
-    margin-top: 55px;
-    padding-top: 20px;
-    background-color: #eaeaea;
+    margin-top: 65px;
+    padding-top: 40px;
+    background-color: #f7f7f7;
     .container{
         p{
             text-align: justify;
@@ -9,16 +9,16 @@
         }
 
         i{
-            color:#FEA116;
+            color:#074a7c;
             font-size: 20px;
             margin-bottom: 10px;
         }
         .text-clr{
-            color: #0F172B;
+            color: #074a7c;
             font-weight: bold;
         }
         .pro-name{
-            color: #FEA116;
+            color: #074a7c;
             text-transform: capitalize;
         }
 
@@ -29,11 +29,11 @@
             position: relative;
             border-radius: 50%;
             font-size: 25px;
-            color: #FEA116;
+            color: #074a7c;
             z-index: 1;
             font-size:25px;
             font-weight: 900;
-            border: 1px solid #FEA116;
+            border: 1px solid #074a7c;
         }
 
         .dce-btn{
@@ -43,20 +43,20 @@
             position: relative;
             border-radius: 50%;
             font-size: 25px;
-            color: #0F172B;
+            color: #074a7c;
             z-index: 1;
             font-size:25px;
             font-weight: 900;
            left: 75px;
-           top: -58px;
-           border: 1px solid #0F172B;
+           top: -62px;
+           border: 1px solid #074a7c;
 
         }
         .number{
             position: relative;
             left: 51px;
             top: -30px;
-            color: #FEA116;
+            color: #074a7c;
             font-weight: 500;
             font-size: 15px;
         }
@@ -64,16 +64,16 @@
         .buy{
 
             padding: 15px;
-            color: #FEA116;
+            color: #074a7c;
             font-size: 20px;
             text-decoration: none;
-            border: 1px solid #FEA116;
+            border: 1px solid #074a7c;
             position: relative;
             left: -30px;
             margin-top: 5px;
             &:hover{
                 color: white;
-                background-color: #FEA116;
+                background-color: #074a7c;
             }
         }
        ul{
@@ -84,7 +84,7 @@
         }
        }
        h6{
-        color: #FEA116;
+        color: #074a7c;
         font-weight: 500;
        }
 
@@ -93,7 +93,7 @@
         display: block;
         border: none;
         height: 3px;
-        background: #FEA116;
+        background: #074a7c;
         //background: linear-gradient(to right, #FEA116, #FEA116, #edc07c, #e38b08, #FEA116);
 
         }
