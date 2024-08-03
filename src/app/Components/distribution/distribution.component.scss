@@ -1,95 +1,122 @@
-.container-fluid{
-
-    .col-md-3{
-       // padding: auto 10px;
-        transition:transform .1s;
-        margin-top:20px;
+.container-fluid {
+        p{
+            text-align: justify;
+            color: #8a8a8a;
+        }
+    .col-md-3 {
+        // padding: auto 10px;
+        transition: transform .1s;
+        margin-top: 20px;
         cursor: pointer;
-        .card-border{
+
+        .card-border {
             text-align: justify;
         }
-        span{ 
-           
+
+        span {
+
             i {
                 font-size: 30px;
-                color: #FEA116;
+                color: #074a7c;
                 text-align: center;
                 padding: 20px;
-                border: 1px solid #FEA116;
+                border: 1px solid #074a7c;
                 border-radius: 50%;
                 margin: 20px auto 10px auto;
             }
-            
-        }
-        &:hover{ transform: scale(1.1);
 
         }
-        
-      }
 
-    .container{
 
-        .img-height{
+    }
+
+    .container {
+
+        .img-height {
             height: 400px;
             width: 100%;
+            object-fit: cover;
+
+           
+            position: relative;
+
         }
-       
-        .col-md-6{
-            .icon-fas{
+        .col-md-6 {
+            
+            .icon-fas {
                 font-size: 20px;
-                color: #FEA116;
+                color: #074a7c;
             }
-            p{
+
+            p {
                 text-align: justify;
             }
         }
-        h6{
+
+        h6 {
             text-align: center;
             font-size: 35px;
-            color: #FEA116;
+            color: white;
             font-weight: 550;
             position: relative;
             top: 150px;
+            font-weight: 600;
 
         }
-        .card{
+
+        .card {
             text-align: justify;
             cursor: pointer;
             transition: transform .1s;
             margin-top: 20px;
-            &:hover{
-                border-bottom: 3px solid  #FEA116;
-                transform: scale(1.1);
+
+            &:hover {
+                border-bottom: 3px solid #074a7c;
+                // transform: scale(1.5);
             }
-            .card-body{
 
-                .card-title{ color: #0B141F; }
+            .card-body {
+               p{
+                text-align: justify;
+                .icon{
+                    padding: 5px;
+                    
+                    font-size: 15px;
+                    color: #074a7c;
+                    margin-right: 5px;
+                }
+               }
+                .card-title {
+                    color: #074a7c;
+                }
 
-             
+
                 a {
                     text-decoration: none;
-                    
 
-                  }
-                  
-                  .link-arrow p {
+
+                }
+
+                .link-arrow p {
                     display: inline;
                     transition: 0.1s ease-in;
-                    color: #FEA116;
+                    color: #074a7c;
                     font-weight: 500;
                     float: right;
-                    i{
+
+                    i {
                         padding-left: 10px;
                     }
-                    &:hover{
+
+                    &:hover {
                         transform: translateX(10%);
-                    color: #0B141F;
+                        color: #074a7c;
                     }
-                  }
-                  
-        
-             }
+                }
+
+
+            }
         }
-     
+
     }
 }
